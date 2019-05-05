@@ -1,0 +1,17 @@
+/* one.css */
+*{margin:0;padding:0;}
+.background{position: absolute;width:321px;height:570px;background-color: #2ab2fe;z-index: -1;}
+
+.wifi{position: absolute;display:inline-block;left:6px;}
+.time{position: absolute;color:#e2ecf4;font-size: 0.525em;left:140px;top:3px;}
+.battle{position: absolute;display:inline-block;left:264px;}
+
+.logo{position: absolute;left:99px;top:150px;color:#e2ecf4;font-size: 1.525em;}
+
+.textbox{position: absolute;left:60px;top:240px;color:#e2ecf4;font-size: 0.725em;}
+.username,.password{border-bottom:1px solid;padding:5px;width:200px;height: 24px;}
+.text1{background:url(./images/content_username.png) no-repeat 0px 0px;line-height:30px;position:absolute;padding-left: 30px;}
+.text2{background:url(./images/content_password.png) no-repeat 0px 0px;line-height:30px;position:absolute;padding-left: 30px;}
+
+.btn_01{position: absolute;left:60px;top:350px;border:1px;border-radius:40px;width: 200px;line-height: 50px;background: #ffffff;color: #2ab2fe;font-size: 1.225em;text-align: center;}
+.reminder{position: absolute;left:110px;top:406px;font-size: 0.725em;color: #ffffff;}
