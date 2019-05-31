@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="m760.css" media="only screen and (max-width:760px)"/>
+    <link rel="stylesheet" type="text/css" href="m1536.css" media="only screen and (min-width:760px) and (max-width:1536px)"/>
+    <title>国外简洁的商务公司网站模板html响应式布局源码下载</title>
+    <script>
+        var wrap = document.querySelector(".wrap");
+        var next = document.querySelector(".arrowright");
+        var prev = document.querySelector(".arrowleft");
+        next.onclick = function () {
+            next_pic();
+        }
+        prev.onclick = function () {
+            prev_pic();
+        }
+        function next_pic () {
+            index++;
+            if(index > 4){
+                index = 0;
+            }
+            showCurrentDot();
+            var newLeft;
+            if(wrap.style.left === "-3940px"){
+                newLeft = -1880;
+            }else{
+                newLeft = parseInt(wrap.style.left)-940;
+            }
+            wrap.style.left = newLeft + "px";
+        }
+        function prev_pic () {
+            index--;
+            if(index < 0){
+                index = 4;
+            }
+            showCurrentDot();
+            var newLeft;
+            if(wrap.style.left === "0px"){
+                newLeft = -3760;
+            }else{
+                newLeft = parseInt(wrap.style.left)+940;
+            }
+            wrap.style.left = newLeft + "px";
+        }
+        var timer = null;
+        function autoPlay () {
+            timer = setInterval(function () {
+                next_pic();
+            },2000);
+        }
+        autoPlay();
+
+        var banner = document.querySelector(".banner");
+        banner.onmouseenter = function () {
+            clearInterval(timer);
+        }
+        banner.onmouseleave = function () {
+            autoPlay();    
+        }
+
+        var index = 0;
+        var dots = document.getElementsByTagName("span");
+        function showCurrentDot () {
+            for(var i = 0, len = dots.length; i < len; i++){
+                dots[i].className = "";
+            }
+            dots[index].className = "on";
+        }
+
+        for (var i = 0, len = dots.length; i < len; i++){
+            (function(i){
+                dots[i].onclick = function () {
+                    var dis = index - i;
+                    if(index == 4 && parseInt(wrap.style.left)!==-4700){
+                        dis = dis - 5;     
+                    }
+                    if(index == 0 && parseInt(wrap.style.left)!== -940){
+                        dis = 5 + dis;
+                    }
+                    wrap.style.left = (parseInt(wrap.style.left) +  dis * 940)+"px";
+                    index = i;
+                    showCurrentDot();
+                }
+            })(i);            
+        }
+
+        function  showImg(){
+        document.getElementById("QRcode").style.display='block';
+        }
+        function hideImg(){
+        document.getElementById("QRcode").style.display='none';
+        }
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <div class="device">
+            <ul>
+                <li class="icon-computer"></li>
+                <li class="icon-ipad-front"></li>
+                <li class="icon-ipad-side"></li>
+                <li class="icon-iphone-front"></li>
+                <li class="icon-iphone-side"></li>
+            </ul>
+        </div>
+        <ul class="nav-2">
+            <li class="nav-2-1"><a href="javascript:void(0)" onMouseOut="hideImg()"  onmouseover="showImg()">手机二维码预览</a></li>
+            <div id="QRcode" style="display:none;height:15px;position:absolute;"><img src="images/QRcode.png" style="width:80px;height:80px;"></div>
+            <li class="nav-2-2"><a href="#">国外简洁的商务公司网站模板html响应式布局源码下载</a></li>
+            <li class="nav-2-3"><a href="#">X</a></li>
+        </ul>
+    </div>
+    <div class="content">
+            <div class="Header">
+            <!-- <div class="Header-bar">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing slit, sed do siusmod</p>
+            <div class="Header-bar-images">
+                <img src>
+                <img src>
+                <img src>
+            </div>
+        </div> -->
+            <img src="images/Header_logo.png">
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Aboutr us</a><img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:2px;">
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Element & Style</a></li>
+                            <li><a href="#"></a>400 Page</a></li>
+                            <li><a href="#"></a>Dummy link</a><img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:2px;"></li>
+                            <li><a href="#"></a>Dummy link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Services</a><img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:2px;"></li>
+                    <li><a href="#">Portfolio</a><img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:2px;"></li>
+                    <li><a href="#">Blog<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:2px;"></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#"><img src="images/icon-searchMark.png" style="width:16px;height:16px;"></a></li>
+                </ul>
+             </div>
+        </div>
+        
+    <div class="content-bg">
+        <div class="banner">
+          <div class="wrap" >
+                <img src="./images/content-banner-pic4.jpg">
+                <img src="./images/content-banner-pic1.jpg">
+                <img src="./images/content-banner-pic2.jpg">
+                <img src="./images/content-banner-pic3.jpg">
+                <img src="./images/content-banner-pic4.jpg">
+                <img src="./images/content-banner-pic1.jpg">
+        </div>
+    </div>
+        <div class="content-banner-description">
+            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod temor inididunt. <a href="#">Get the chance to win brand new ipad!</a></p>
+        </div>
+        <div class="buttons">
+            <a href="javascript:;" class="arrowleft">&lt;</a>
+            <a href="javascript:;" class="arrowright">&gt;</a>
+        </div>
+        <div class="pointer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </div>
+        <div class="content-title1">
+            <span>GALLERY</span>
+        </div>
+        <div class="content-box1">
+            <div class="content-box11">
+                <img src="images/content-box1-pic1.jpg" >
+                <span class="content-box111">Lorem ipsum dolor</span>
+                <span class="content-box112">Lorem ipsum doloe sit amet,consectetyr adipisicing elit,sed do eisusmod tempor incididunt ut labore et magana aliqua.</span>
+            </div>
+            <div class="content-box11">
+                <img src="images/content-box1-pic2.jpg" >
+                <span class="content-box111">Lorem ipsum dolor</span>
+                <span class="content-box112">Lorem ipsum doloe sit amet,consectetyr adipisicing elit,sed do eisusmod tempor incididunt ut labore et magana aliqua.</span>
+            </div>
+            <div class="content-box11">
+                <img src="images/content-box1-pic3.jpg">
+                <span class="content-box111">Lorem ipsum dolor</span>
+                <span class="content-box112">Lorem ipsum doloe sit amet,consectetyr adipisicing elit,sed do eisusmod tempor incididunt ut labore et magana aliqua.</span>
+            </div>
+            <div class="content-box11">
+                <img src="images/content-box1-pic4.jpg">
+                <span class="content-box111">Lorem ipsum dolor</span>
+                <span class="content-box112">Lorem ipsum doloe sit amet,consectetyr adipisicing elit,sed do eisusmod tempor incididunt ut labore et magana aliqua.</span>
+            </div>
+        </div>
+        <div class="content-title2" >
+            <span>COMPANY</span>
+        </div>
+        <div class="content-box2">
+            <ul>
+                <li><a href="#">About Us<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:14px;"></a></li>
+                <li><a href="#">Our Services<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:14px;"></a></li>
+                <li><a href="#">Our Clients<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;padding-left:14px;"></a></li>
+            </ul>
+            <div class="content-box2-aboutus">
+                <span class="content-box2-aboutus1">About Us</span>
+                <span class="content-box2-aboutus2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <div>
+                <div class="content-box2-aboutus3">
+                    <img src="images/content-box2-pic1.png" style="width:32px;height:32px;">
+                    <span><strong>Global operation.</strong> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus</span>
+                </div>
+                <div class="content-box2-aboutus3">
+                    <img src="images/content-box2-pic2.png" style="width:32px;height:32px;">
+                    <span><strong>Global operation.</strong> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus</span>
+                </div>
+                <div class="content-box2-aboutus3">
+                    <img src="images/content-box2-pic3.png" style="width:32px;height:32px;">
+                    <span><strong>Global operation.</strong> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <div class="footertitle">
+                <span>HELLO</span>
+                <div></div>
+            </div>
+            <span class="footerontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            <span class="footerontent">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</span>
+        </div>
+        <div class="footer2">
+            <div class="footertitle">
+                <span>LINKS</span>
+                <div></div>
+            </div>
+            <ul>
+                <li><a href="#">Home<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;"></a></li>
+                <li><a href="#">About<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;"></a></li>
+                <li><a href="#">Service<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;"></a></li>
+                <li><a href="#">Works<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;"></a></li>
+                <li><a href="#">Blogs<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;"></a></li>
+                <li><a href="#">Contact<img src="./images/icon-doublearrow-left2.png" style="width:10px;height:10px;"></a></li>
+        </div>
+        <div class="footer3">
+            <div class="footertitle">
+                <span>TWITTER</span>
+                <div></div>
+            </div>
+                <span class="footerontent">envato,4</span>
+        </div>
+        <div class="footer4">
+            <div class="footertitle">
+                <span>FLICKR</span>
+                <div></div>
+            </div>
+                <span class="footerontent">10133335@N08,8,s</span>
+        </div>
+    </div>
+    <div class="end">
+        <span>© 2013. All rights reserved. More Templates <a href="#">模板之家</a></span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>
