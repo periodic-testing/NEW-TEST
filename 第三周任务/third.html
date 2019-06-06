@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+	<title>The third test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+ <link rel="license" href="bootstrap/css/bootstrap-theme.css">
+ <link rel="stylesheet" href="style.css">
+ <style>
+ @media only screen and (max-width: 1200px) { .describe{ font-size: 22px; }}
+@media only screen and (max-width: 1100px) { .describe{ font-size: 21px; }}
+@media only screen and (max-width: 1000px) { .describe{ font-size: 20px; }}
+@media only screen and (max-width: 900px) { .describe{ font-size: 19px; }}
+@media only screen and (max-width: 800px) { .describe{ font-size: 18px; }}
+@media only screen and (max-width: 700px) { .describe{ font-size: 17px; }}
+@media only screen and (max-width: 600px) { .describe{ font-size: 16px; }}
+@media only screen and (max-width: 500px) { .describe{ font-size: 15px; }}
+@media only screen and (max-width: 400px) { .describe{ font-size: 14px; }}
+@media only screen and (max-width: 300px) { .describe{ font-size: 13px; }}
+
+@media only screen and (min-width: 1200px) { .carousel-indicators{ bottom: 650px; }}
+@media only screen and (max-width: 1200px) { .carousel-indicators{ bottom: 1589px; }}
+@media only screen and (max-width: 1000px) { .carousel-indicators{ bottom: 1818px; }}
+@media only screen and (max-width: 900px) { .carousel-indicators{ bottom: 1818px; }}
+@media only screen and (max-width: 800px) { .carousel-indicators{ bottom: 1995px; }}
+@media only screen and (max-width: 700px) { .carousel-indicators{ bottom: 2225px; }}
+@media only screen and (max-width: 600px) { .carousel-indicators{ bottom: 2643px; }}
+
+
+@media only screen and (min-width: 992px) { .container-title{ margin-top:40px; }}
+@media only screen and (min-width: 768px) { .container-title{ margin-top:40px; }}
+@media only screen and (min-width: 600px) { .container-title{ margin-top:40px; }}
+@media only screen and (min-width: 500px) { .container-title{ margin-top:40px; }}
+@media only screen and (min-width: 400px) { .container-title{ margin-top:40px; }}
+@media only screen and (min-width: 300px) { .container-title{ margin-top:40px; }}
+@media only screen and (min-width: 200px) { .container-title{ margin-top:40px; }}
+@media only screen and (min-width: 100px) { .container-title{ margin-top:40px; }}
+
+@media only screen and (max-width: 600px) { .social-icons{ float: left;left:-28px;top:13px; }}
+/*@media screen and (min-width: 1200px){ .col-lg-offset-3 {margin-left
+    : 676px;
+  }}
+*/
+  .col-lg-3{
+  	width: 20%;
+  	padding-right: 15px;
+  	padding-left: 0px;
+  }carousel-indicators
+ </style>
+<script src="JQuery.js"></script>
+<script src="bootstrap/js/bootstrap.js" ></script>	
+
+</head>
+<body>
+	
+	<script>
+
+		$('#control').carousel({
+     interval: 500
+     })
+	</script>
+	<script>
+		$(function(){
+		// 循环轮播到上一个项目
+		$(".prev-slide").click(function(){
+			$("#control").carousel('prev');
+		});
+		// 循环轮播到下一个项目
+		$(".next-slide").click(function(){
+			$("#control").carousel('next');
+		});
+	});
+	</script>
+	<div id="header_toolbar">
+		<div class="container clearfix col-lg-offset-3" style="height: 20px;position: relative;">
+			<div class="col-log-12">
+				<div class="text">
+					
+					
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>	
+               </div> 
+               <div class="social-icons">
+               	<ul>
+               		<li> <a class="icon-facebook" href="#" title="Facebook">
+               			<i></i>
+               		</a></li>
+               		<li>
+               			<a class="icon-google" href="#" title="Google">
+               			<i></i>
+               		</a>
+               		</li>
+               		<li>
+               			<a class="icon-twitter" href="#" title="Twitter">
+               			<i></i>
+               		</a>
+               		</li>
+               	</ul>
+               	
+               </div>
+            </div> 
+        </div>
+	</div>
+	<div class="header" class="section" style="margin: 20px auto">
+		<div class="container clearfix col-lg-offset-3" style="position: relative;">
+			<div class="grid-12" style="display: contents;">
+				
+			 
+				<a id="logo" href="#">
+					<img src="photo/logo.png">
+				</a>
+				<div class="search-trigger">
+					<a class="tigger-popover" href="#" title="search_"></a>
+					
+				</div>
+				<div class="collapse navbar-collapse">
+				<ul class="nav-h nav navbar-nav">
+					<li class="current-menu-item"> 
+						<a href="#" >Home</a>
+					</li>
+					 <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    About 
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    
+                </ul>
+            </li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Porfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+				<div class="clean"></div>
+			</div>
+			
+		</div>
+		
+	</div>
+	   <div class="container clearfix col-lg-offset-3"  >
+		<div id="control"class="carousel slide" data-ride="carousel">
+			<!-- <div id="control"> -->
+				<div class="col-lg-10 col-lg-push-0 "style="background-color:white;
+				  padding-top: 20px; "
+					
+				  </style>
+					<div class="col-lg-12">
+						<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-responsive " src="photo/1-1.jpg">
+							<a class="slide-action href="#" ">
+							<div class="describe">
+								
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. 
+                                    <a href="#">Get the chance to win brand new iPad!</a></p>
+							</div>
+						</div>
+						<div class="item">
+							<img class="img-responsive " src="photo/1-2.jpg">
+							<a class="slide-action href="#" ">
+							<div class="describe">
+								
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. 
+                                    <a href="#">Get the chance to win brand new iPad!</a></p>
+							</div>
+							
+						</div>
+						<div class="item">
+							<img class="img-responsive " src="photo/1-3.jpg">
+							<a class="slide-action href="#" ">
+							<div class="describe">
+								                                    
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. 
+                                    <a href="#">Get the chance to win brand new iPad!</a></p>
+							</div>
+							
+						</div>
+						<div class="item">
+							<img class="img-responsive " src="photo/1-4.jpg">
+							<a class="slide-action href="#" ">
+							<div class="describe">
+								
+                                   <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. 
+                                    <a href="#">Get the chance to win brand new iPad!</a></p>
+							</div>
+							
+						</div>
+						<div class="r-slider-controls"  style="margin-top:-42px;">
+						 <a class="btn prev-slide" href="#control" date-slide="prev" role="botton">«</a>
+						 <a class="btn next-slide" href="#control" date-slide="next" role="botton">»</a>
+					    </div>
+						</div>
+
+						
+					</div>
+					<div class="points1">
+						<!-- Indicators --> <ol class="carousel-indicators" style="width: 60px;right: 0%; margin-left: -45%;"> 
+							<li  class="active" data-target="#control" data-slide-to="0" ></li> 
+							<li data-target="#control" data-slide-to="1"></li> 
+							<li data-target="#control" data-slide-to="2"></li> 
+							<li data-target="#control" data-slide-to="3"></li> 
+						</ol> <!-- Wrapper for slides --> 
+
+					</div>
+					
+					<!-- <div class="description" style="display: block;">
+
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. 
+                       <a href="#">Get the chance to win brand new iPad!</a>
+						
+					</div> -->
+					<div class="clear"></div>
+
+					<div class="container-title">
+	  	              <h4 class="G-title">Gallery</h4>
+	  	
+	                </div>
+	                <div class="container boxed container-gallery dark clearfix" style   ="margin-top: 30px;">
+	                	<div class="gallery-container">
+	                		<div class="col-lg-3 gallery-item shadow-box" style="opacity: 1">
+	                			<div class="gallery-img"><a class="dm3-gallery-tigger"  data-content="#content1" data-gallery="gallery1" href="#"><img src="photo/2-1.jpg" width="220"></a></div>
+	                			<div class="gallery-title"><a href="#">Lorem ipsum dolor </a></div>
+	                			<div class="description">
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+	                			<div class="shadow"></div>
+	                		</div>
+
+	                		<div class="col-lg-3 gallery-item shadow-box" style="opacity: 1">
+	                			<div class="gallery-img"><a class="dm3-gallery-tigger"  data-content="#content2" data-gallery="gallery1" href="#"><img src="photo/2-2.jpg" width="220"></a></div>
+	                			<div class="gallery-title"><a href="#">Lorem ipsum dolor </a></div>
+	                			<div class="description">
+                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+	                			<div class="shadow"></div>
+	                		</div>
+
+	                		<div class="col-lg-3 gallery-item shadow-box" style="opacity: 1">
+	                			<div class="gallery-img"><a class="dm3-gallery-tigger"  data-content="#content3" data-gallery="gallery1" href="#"><img src="photo/2-3.jpg" width="220"></a></div>
+	                			<div class="gallery-title"><a href="#">Lorem ipsum dolor </a></div>
+	                			<div class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+	                			<div class="shadow"></div>
+	                		</div>
+
+	                		<div class="col-lg-3 gallery-item shadow-box" style="opacity: 1">
+	                			<div class="gallery-img"><a class="dm3-gallery-tigger"  data-content="#content4" data-gallery="gallery1" href="#"><img src="photo/2-4.jpg" width="220"></a></div>
+	                			<div class="gallery-title"><a href="#">Lorem ipsum dolor </a></div>
+	                			<div class="description">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+	                			<div class="shadow"></div>
+	                		</div>
+	                		
+	                	</div>
+
+	                	
+	                </div>
+	                <div class="container-title" style="margin-top:37px;">
+	  	              <h4 class="G-title">Company</h4>
+	  	
+	                </div>
+	                <div class="container boxed container-about container-last        clearfix">
+	                	<div class="vertical-tabs-container">
+	                		<ul class="tabs-nav tabs-nav-vertical grid-3" style="padding-left: 0px;margin-top: 20px; float: left;">
+	                			<li class="active" style="visibility:visible;">
+	                				<a href="#">About us</a>
+	                			</li>
+	                			<li>
+	                				<a href="#">Our Services</a>
+	                			</li>
+                                 <li>
+	                				<a href="#">Our Clients</a>
+	                			</li>	                			
+	                		</ul>
+	                		<div class="tabs tabs-vertical grid-9 col-lg-9 col-lg-push-">
+	                			<div class="tab" style="padding-left: 130px;">
+	                				<h1>About us</h1>
+	                				<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  a exea commodo consequat.
+                                    </p>
+                                    <div class="one-third first col-lg-4">
+                                    	<img src="photo/F1.png">
+                                    	<p class="col-lg-12"><strong>Global operation.</strong>
+                                    	 Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus.
+                                
+                                    	</p>
+                                    	
+                                    </div>
+                                    <div class="one-third col-lg-4">
+                                    	<img src="photo/F2.png">
+                                    	<p class="col-lg-12"><strong>Global operation.</strong>
+                                    	 Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus.
+                                
+                                    	</p>
+                                    	
+                                    </div>
+                                    <div class="one-third col-lg-4">
+                                    	<img src="photo/F3.png">
+                                    	<p class="col-lg-12"><strong>Global operation.</strong>
+                                    	 Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus.
+                                
+                                    	</p>
+                                    	
+                                    </div>
+
+	                			</div>
+	                		</div>
+	                		<div class="clean"></div>
+	                	</div>
+	                </div>
+		</div>
+		<div id="footer" class="footer footer1 col-lg-10">
+			<div class="container">
+				<div class="footer-widget col-lg-3">
+					<h4 class="widget-title site-title">HELLO</h4>
+					<div class="underline col-lg-3"></div>
+					<p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 </p>
+                 <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.
+                </p>
+				</div>
+				<div class="footer-widget col-lg-3">
+					<h4  class="widget-title site-title">LINKS</h4>
+					<div class="underline col-lg-3"></div>
+					<ul class="nav-v nav-1" style="margin-top:30px;padding-left:0;">
+
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+						
+					</ul>
+				</div>
+				<div class="grid-3 footer-widget col-lg-3">
+					<h4 class="widget-title site-title">Twitter</h4>
+					<div class="underline col-lg-3"></div>
+					<div class="flickr-widget" style="margin-top: 30px;">envato,4</div>
+				</div>
+				<div class="grid-3 footer-widget col-lg-3">
+					<h4 class="widget-title site-title">Flickr</h4>
+					<div class="underline col-lg-3"></div>
+					<div class="flickr-widget" style="margin-top: 30px;">10133335@N08,8,s</div>
+				</div>
+			</div>
+			<div class="section-shadow"></div>
+			<div class="section-border"></div>
+			
+		</div>
+				
+				
+				
+			
+</body>
+</html>

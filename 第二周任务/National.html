@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
+  <title>任务一</title>
+  <link rel="stylesheet" type="text/css" href="text.css" charset="utf-8">
+  <script src="JQuery.js">
+    
+</script>
+</head>
+<body>
+    <script>
+        $(function(){
+        //页面初始化的时候，获取滚动条的高度（上次高度）
+        var start_height = $(document).scrollTop();
+        //获取导航栏的高度(包含 padding 和 border)
+        var navigation_height = $('.navigation').outerHeight();
+        $(window).scroll(function() {
+            //触发滚动事件后，滚动条的高度（本次高度）
+            var end_height = $(document).scrollTop();
+            //触发后的高度 与 元素的高度对比
+            if (end_height > navigation_height){
+                $('.navigation').addClass('hide');
+            }else {
+                $('.navigation').removeClass('hide');
+            }
+            //触发后的高度 与 上次触发后的高度
+            if (end_height < start_height){
+                $('.navigation').removeClass('hide');
+            }
+            //再次获取滚动条的高度，用于下次触发事件后的对比
+            start_height = $(document).scrollTop();
+        });
+     });
+    </script>
+ 
+	<div class="navigation">
+		<div id="menudiv">
+			<img id="menusvg" src="First/menu1.png"></img>
+		</div>
+		<div id="menu_right">
+		<div id="menu2">
+		<a id="scbscribe" href="https://www.baidu.com">Scbscribe</a>	
+		</div>
+		<div class="user">
+			<img src="photo/user.png" width="3%" height="3%">
+		</div>
+		<div class="search">
+			<img src="photo/search.png" width="3%" height="3%">
+		</div>
+		<div class="MENU">
+			<a id="MENU1" href="https://www.baidu.com">MENU</a>	
+		</div>
+		<div class="arrows">
+			<img src="photo/arrows.png" width="2%	" height="2%">
+		</div>
+		</div>
+	</div>
+	<div class="content">
+	   <div class="web1">
+			<div class="web1_content">
+		 <div class="fixedbg1">
+			<p class="EXPLORE">EXPLORE TODAY</p>
+		 </div>
+		 <div class="Through">
+			<p>Through the eyes of our Explorers, photographers, journalists, and filmmakers</p>
+		 </div>
+		 <div>
+			
+		
+		  <div class="LATEST">
+			<div class="LA1">
+			<p>LATEST STORIES</p>
+		    </div>
+			<div class="Photo1">
+				<div class="web11st_photo">
+				<img src="Second/web1 (1).jpg"></div>
+				<div class="photoP">
+					<P>CULYURE & HISTORY</P>
+					<P> New research questions<br> famed burial of "first"<br> Christian Anglo-Saxon king</P>
+				</div>
+			</div>
+			<div class="Photo2">
+				<div class="web12nt_photo">
+				<img src="Second/web1 (2).jpg">
+				</div>
+				<div class="photoP">
+					<p>ENVIRONMENT</p>
+					<P>Scenes from the<br> new Cold War unfolding <br>at the top of the world</P>
+				</div>
+			</div>
+			<div class="Photo3">
+				<div class="web13rt_photo">
+				<img src="Second/web1 (3).jpg">
+				</div>
+				<div class="photoP">
+					<p>ANIMALS</p>
+					<p>Half of all amphibian<br> species at risk of <br>extinction</p>
+				</div>
+			</div>
+			<div class="Photo4">
+				<div class="web14th_photo">
+				<img src="Second/web1 (4).jpg">
+				</div>
+				<div class="photoP">
+					<p>ENVIRONMENT</p>
+					<p>Two-thirds of the <br>longest rivers no longer <br>flow freely-and it's <br>harming us</p>
+				</div>
+			</div>
+			<div class="Photo5">
+				<div class="web15th_photo">
+				<img src="Second/web1 (5).jpg">
+				</div>
+				<div class="photoP">
+					<p>CULTURE & HISTORY</p>
+					<p>Vintage photos of <br>royal families from all <br>over the world</p>
+				</div>
+			</div>
+			<div class="Photo6">
+				<div class="web16th_photo">
+				<img src="Second/web1 (6).jpg">
+				</div>
+				<div class="photoP">
+					<p>ANIMALS</p>
+					<p>More than 100 neglected <br>lions found in a South <br>African breeding facility</p>
+				</div>
+			</div>
+			<div class="SEE">
+			<p style="width:13%;"> SEE MORE</p>
+			</div>
+		 </div>
+		 <div class="web1_right">
+			<div class="web1_right1" >
+				<div style="padding-top: 26%;padding-left: 2%;">
+					
+				<p>SCIENCE & INNOVATION STARSTRUCK</p></div>
+				<div style="padding-left: 2%;"><P>Chinese rover finds strange rocks<br>that may come from deep inside<br>the moon </P></div>
+			</div>
+			<div class="web1_right2">
+				<img src="photo/lion.jpg" width="100%">
+				<div class="web_right2P">
+					<p>TREVEL WILDLIFF WATCH</p>
+					<P> How to do wildlife<br>tourism right</P>
+					
+				</div>
+				
+			</div>
+			<div class="web1_right3dad">
+				
+			
+			<div class="web1_right3">
+				<img src="photo/shenshou.jpg" width="100%">
+				<div class="web_right3P">
+				<p>PHOTOGRAPHY</p>
+				<p> Vote for your favorite <br>Travel Photo Contest entry</p>
+				</div>
+			</div></div>
+			<div class="web1_4">
+				<p>nihao </p>
+				
+			</div>
+		 </div>
+	     </div>
+		</div>
+	   </div>
+	   <div class="web2">
+	   	 <div class="web2_first">
+	   		<div class="web2_first_p"><p>ADVERTISEMENT</p></div>
+	   		<div class="VOTE">
+	   		<div class="VOTE1"><img src="photo/vote.png"></div>
+	   		<div class="VOTE2"><img src="photo/vote2.jpg" ></div>
+	   		<div class="web2_CQUPT"><img src="photo/CQUPT.jpg"></div></div></div>
+	   	    
+	     <div class="WAT">
+	   		<div class="WAT_P"><p>WATCH</p><br></div>
+	   		<div class="fur_p"><p>Further with Nat Geo TV.Anytime.Anyway</p></div>
+	   		
+	   	 </div>
+	   	 <div class="VID">
+	   		
+	   		<div class="VID_video"><video width="1024" height="575" >
+                 <source src="photo/movie.mp4" type="video/mp4" />
+                 </video></div>
+	   		<div class="THR_p">THREE-NIGHT EVENT PREMIERES MAY 27TH AT 9/8C</div>
+	   		<div class="THE_P">THE HOT ZONE</div>
+	   		<div class="based_p"><p>Based on the eponymous international best-seller by Richarrd Preston, The Host Zone, starring<br>Golden Globe and Emmy  award winner Julianna Margulies, is inspired by a true story about the<br>origins of Ebola, a hightly infectious virus from the central African rainforet and its arrival on US <br>soil in 1989.</p></div>
+	   		<div class="web2_bot"><button>WATCH THE TRILER NOW</button></div>
+
+	   	 </div>
+	   	 <div class="NAT">
+	   	 	<div class="NAT_p"><p>NAT GEO ORIGINALS</p></div>
+	   		<div class="web2_photo">
+	   			<img id="web2_1" src="photo/web21.jpg">
+	   			<img id="web2_2" src="photo/web22.jpg">
+	   		    <img id="web2_3" src="photo/web23.jpg">
+	   			<img id="web2_4" src="photo/web24.jpg">
+	   			<img id="web2_5" src="photo/web25.jpg">
+	   		</div>
+	   	 </div>
+	   	
+	   	</div>
+	   	<div class="web3"	>
+	   		<div class="web3_first">
+	   		<div class="TRA_P"><p>TRAVEL</p></div>
+	   		<div class="ONCe_p"><p>Once in a lifetime adventures. Led by our expects.</p></div>
+	   		</div>
+	   		<div class="web3_photo">
+	   			<div class="web3_left">
+	   				<div class="web3_left_top">
+	   					<div class="web3_left_top_photo"><img src="web3/1.jpg"></div>
+	   					<div class="web3_left_top_p1"><p>TRAVEL WITH US</p></div>
+	   					<div class="web3_left_top_p2"><p>Discover the magic of the <br>Galapagos</p></div>
+	   					<div class="web3_left_top_p3"><p>BOOK A TRIP</p></div>
+	   				</div>
+
+	   				<div class="web3_left_bottom">
+	   					<div class="web3_bottom1">
+	   					<div class="web3_left_bottom1_photo"><img src="web3/2.jpg"></div>
+	   					<div class="web3_left_bottom1_p1"><p>EXPLORE<br>EUROPE WITH<br>NAT GEO<br>EXPERTS</p></div>
+	   					<div class="web3_left_bottom1_button"><button > BOOK A TRIP</button></div>
+	   					</div>
+	   					<div class="web3_bottom2">
+	   						<div class="web3_left_bottom2_photo"><img src="web3/3.jpg"></div>
+	   						<div class="web3_left_bottom2_p1"><p>EXPLORE<br>CENTRAL<br>AMERICA: TRIPS<br>FROM $1,699</p></div>
+	   						<div class="web3_left_bottom2_button"><button>SEE TRIPS</button></div>
+	   					</div>
+	   				</div>
+	   				
+	   			</div>
+	   			<div class="web3_right">
+	   				<div class="LAT"><p>LATEST STORIES</p></div>
+	   				<div class="web3_right1">
+	   					<div class="web3_right1_photo">
+	   						<img src="web3/4.jpg">
+	   					</div>
+	   					<div class="web3_right1_p1">
+	   						<p>TRAVEL</p>
+	   					</div>
+	   					<div class="web3_right1_p2">
+	   						<p>Discover 20 of Kyoto's<br>highlights and hidden<br>gems</p>
+	   					</div>
+	   				</div>
+	   				<div class="web3_right2">
+	   					<div class="web3_right2_photo">
+	   						<img src="web3/5.jpg">
+	   					</div>
+	   					<div class="web3_right2_p1">
+	   						<p>TRAVEL</p>
+	   					</div>
+	   					<div class="web3_right2_p2">
+	   						<p>June is Pride month. Here's<br>where to celebrate</p>
+	   					</div>
+	   				</div>
+	   				<div class="web3_right3">
+	   					<div class="web3_right3_photo">
+	   						<img src="web3/6.jpg">
+	   					</div>
+	   					<div class="web3_right3_p1">
+	   						<p>TRAVEL</p>
+	   					</div>
+	   					<div class="web3_right3_p2">
+	   						<p>Venice is flooede with<br>tourists-visit these<br>floating cities instead</p>
+	   					</div>
+	   				</div>
+	   				<div class="web3_right4">
+	   					<div class="web3_right4_photo">
+	   						<img src="web3/7.jpg">
+	   					</div>
+	   					<div class="web3_right4_p1">
+	   						<p>PARTNEG CONTENT</p>
+	   					</div>
+	   					<div class="web3_right4_p2">
+	   						<p>From grass roots to green<br>cuisine</p>
+	   					</div>
+	   				</div>
+	   				<div class="web3_right5">
+	   					<div class="web3_right5_photo">
+	   						<img src="web3/8.jpg">
+	   					</div>
+	   					<div class="web3_right5_p1">
+	   						<p>TRAVEL</p>
+	   					</div>
+	   					<div class="web3_right5_p2">
+	   						<p>How to go beyond the <br>dragons in Komodo <br>National Park</p>
+	   					</div>
+	   				</div>
+	   				<div class="web3_right6">
+	   					<div class="web3_right6_photo">
+	   						<img src="web3/9.jpg">
+	   					</div>
+	   					<div class="web3_right6_p1">
+	   						<p>PARTNER CONTENTL</p>
+	   					</div>
+	   					<div class="web3_right6_p2">
+	   						<p>Growing hope in Caqueta,<br>Colombia</p>
+	   					</div>
+	   					<div class="web3_see">
+	   						<button class="web3_see_b">SEE MORE</button>
+	   						
+	   					</div>
+	   				</div>
+	   				
+	   			</div>
+
+	   			
+	   		</div>
+	   		
+	   	</div>
+	   	<div class="web4">
+	   		<div class="web4_top">
+	   			<div class="web4_top_p1">
+	   				<p>BELONG</p>
+	   			</div>
+	   			<div class="web4_top_p2">
+	   				<p>Join our community.Showcase your work.</p>
+	   			</div>
+	   		</div>
+	   		<div class="web4_center">
+	   			<div class="web4_center_p1">
+	   				<p> PHOTO OF THE DAY</p>
+	   			</div>
+	   			<div class="web4_center_p2">
+	   				<p> MAY 19, 2019</p>
+	   			</div>
+	   			<div class="web4_center_photo1">
+	   				<img src="web4/1.jpg">
+	   			</div>
+	   			<div class="web4_center_p3">
+	   				<p> COMFORT CREATURES PHOTOGRAPH BY ANDY S.,NATIONAL GEOGRAPHIC YOUR SHOT</p>
+	   			</div>
+	   			
+	   		</div>
+	   		<div class="web4_left">
+	   			<div class="web4_left1">
+	   				<div class="web4_left1_photo">
+	   					<img src="web4/2.png">
+	   				</div>
+	   				<div class="web4_left1_p">
+	   					<p>Join Your Shot and get<br>photography tips<br>from our experts.</p>
+	   				</div>
+	   				<div class="web4_left1_button">
+	   					<button>LEARN MORE</button>
+	   				</div>
+	   			</div>
+	   			<div class="web4_left2">
+	   				<div class="web4_left2_photo">
+	   					<img src="web4/3.jpg">
+	   				</div>
+	   				<div class="web4_left2_p1">
+	   					<p>OPEN EXPLORER</p>
+	   				</div>
+	   				<div class="web4_left2_p2">
+	   					<p>Exploration is for <br>everyone</p>
+	   				</div>
+	   				<div class="web4_left2_button">
+	   					<button> JOIN US</button>
+	   				</div>
+	   			</div>
+	   			
+	   			
+	   		</div>
+	   		<div class="web4_right">
+	   			<div class="web4_right1">
+	   				<div class="web4_right_y" style="width: 325px;height: 435px;background-color: #FFCC00;">
+	   				</div>
+	   				<div class="web4_right_p">
+	   					<p>LATEST PHOTOS FROM <br>OUR COMMUNITY</p>
+	   				</div>
+	   				<div class="web4_right1">
+	   					<div class="web4_right1_photo">
+	   						<img src="web4/4.jpg">
+	   					</div>
+	   					<div class="web4_right1_p1">
+	   						<p>A mother's<br>devotion</p>
+	   					</div>
+	   					<div class="web4_right1_p2">
+	   						<p>SUE C.,National<br>Geographic Your Shot</p>
+	   					</div>
+	   				</div>
+	   				<div class="web4_right2">
+	   					<div class="web4_right2_photo">
+	   						<img src="web4/5.jpg">
+	   					</div>
+	   					<div class="web4_right2_p1">
+	   						<p>Human vs Nature?<br>Or Human with <br>Nature?</p>
+	   					</div>
+	   					<div class="web4_right2_p2">
+	   						<p>Abhishek Lal,<br>National Geographic <br>Your Shot</p>
+	   					</div>
+	   				</div>
+	   				<div class="web4_see">
+	   					<p>SEE ALL</p>
+	   				</div>
+	   			</div>
+	   		</div>
+	   		
+	   	</div>  	
+	</div>
+	
+	
+</body>
+</html>

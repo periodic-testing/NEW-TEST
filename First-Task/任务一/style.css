@@ -1,0 +1,104 @@
+body{
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#start{
+	height:200px;
+	line-height: 250px;
+	color:white;
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+#account input{ display: inline;
+	            font-size: 15px;
+.name,word{
+	padding-bottom: 10px;
+}	            
+}
+.name input{
+	background: url(a.png) no-repeat;
+		background-color:#2ABAFE;
+		background-position: 3px;
+		width:200px;
+		height: 30px;
+		
+		margin:10px 0;
+		padding-left:50px;
+
+		border:1px solid white;
+		border-right-width:0px;
+		border-left-width:0px;
+		border-top-width:0px;
+		outline: none;
+
+
+
+		
+}
+.word input{
+	background: url(b.png) no-repeat;
+		background-color:#2ABAFE;
+		background-position: 3px;
+		width:200px;
+		height: 30px;
+		
+		margin:10px 0;
+		padding-left:50px;
+
+		border:1px solid white;
+		border-right-width:0px;
+		border-left-width:0px;
+		border-top-width:0px;
+		outline: none;		
+}
+::-webkit-input-placeholder {
+         font-size:20px;
+         color: white;        
+         text-align: left;
+     }
+    :-moz-placeholder { 
+         font-size:20px;
+         color: white;        
+         text-align: left;
+}
+    ::-moz-placeholder { 
+         font-size:20px;
+         color: white;        
+         text-align: left;
+}
+
+    -ms-input-placeholder { 
+         font-size:20px;
+         color: white;        
+         text-align: left;
+}
+button{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	width: 300px;
+	padding:8px;
+	background-color:white;
+	border:none;
+	text-decoration:none ;
+	border-radius:30px;
+	outline:none;
+	text-align: center;
+	color:#2ABAFE;
+	font-size:30px;
+
+}
+.forget{text-align: center;
+
+
+}
+.forget a{
+	color:white;
+	text-decoration: none;
+	text-align: center;
+
+}

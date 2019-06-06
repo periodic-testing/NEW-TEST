@@ -1,0 +1,612 @@
+body{
+	margin:0px;
+}	
+.web1{
+	position: relative;
+}	
+
+.dream{
+	position: absolute;
+	top:22px;
+	left:350px;	
+}
+.dream1{
+	position: absolute;
+	
+}
+.serves1{
+	position: absolute;
+	left:330px;
+	
+	line-height: 0px;
+	height:35px;
+	padding-top:15px;
+}
+.quote{
+	border:1px solid white;
+	border-radius: 8px;
+
+	position: absolute;
+	left:780px;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	top:4px;
+}
+.phone{
+	position: absolute;
+	left:900px;
+	height: 35px;
+	padding-top: 12px;
+}
+.other{
+	position: absolute;
+	left:980px;
+	height: 35px;
+	padding-top: 20px;
+}
+.we{
+	position: absolute;
+	top:300px;
+	left:200px;
+	
+}
+.made{
+	position: absolute;
+	top:500px;
+	left:450px;
+	border-bottom:3px solid white;
+	padding-bottom: 20px;
+	
+}
+.heart{                                  
+        }
+        .heart:before,.heart:after{
+            content: '';
+            position: absolute;
+        }
+        .heart:after{                          /*左边矩形，左上，右上圆角半径为50px，右下，左下没有圆角*/
+            width: 30px;
+            height: 44px;
+            background: red;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);          /*逆时针旋转45deg*/
+            top: 489px;
+            left: 576px;
+        }
+        .heart:before{                       /*右边矩形，左上，右上圆角半径为50px，右下，左下没有圆角*/
+            width: 30px;
+            height: 44px;
+            background: red;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(45deg);           /*顺时针旋转45deg*/
+            top: 489px;
+            left: 586px;
+        }
+.web2{
+	background-color: #F7F7F8;
+	width: 1920px;
+
+	position: relative;
+}
+.dream2{
+	position: absolute;
+}
+.quote2{
+	border:1px solid orange;
+	border-radius: 8px;
+	background-color:orange;
+
+	position: absolute;
+	left:780px;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	top:4px;
+}
+.design{
+	left:400px;
+	top:130px;
+	position: absolute;
+}
+.create{
+	left:550px;
+	top:210px;
+	position: absolute;
+}
+.web2-1{
+	position: absolute;
+	top:350px;
+	left:550px;
+
+}
+.web2-3{
+	position: absolute;
+	top:712px;
+	left:498px;
+
+}
+.web2-4{
+	position: absolute;
+	top:481px;
+	left:542px;
+
+}
+.web2-5{
+	position: absolute;
+	top:294px;
+	left:867px;
+
+}
+.web2-6{
+	position: absolute;
+	top:481px;
+	left:1220px;
+
+}
+.web2-7{
+	position: absolute;
+	top:712px;
+	left:1280px;
+
+}
+#w2-3{
+	position: absolute;
+	top:55px;
+	right:134px;
+
+}
+#w2-4{
+	position: absolute;
+	top:57px;
+	right:133px;
+
+}
+#w2-5{
+	position: absolute;
+	top:-17px;
+	right:-63px;
+
+}
+#w2-6{
+	position: absolute;
+	top:57px;
+	left:130px;
+
+}
+
+#w2-7{
+	position: absolute;
+	top:55px;
+	left:140px;
+}
+.web2-10{
+	position: relative;
+	bottom:335px;
+	left: 725px;
+}
+#w2-11{
+	position: relative;
+	bottom: 223px;
+	right:294px;
+}
+#w2-12{
+	position: absolute;
+	bottom:91px;
+	left:50px;
+}
+#w2-13{
+	position: absolute;
+	bottom:183px;
+	left: 183px;
+}
+.web30{
+	background-color: white;
+	height:180px;
+	position: relative;
+
+}
+.web31{
+	position: absolute;
+	top:63px;
+
+}
+#web311{
+	position: absolute;
+    top: 25px;
+    left: 170px;
+}
+#web321{
+	position: absolute;
+	top: 67px;
+    left: 61px;
+}
+.web40{
+	background-color: white;
+	height:70px;
+	position: relative;
+
+}
+.web41{
+	position: relative;
+
+}
+#text4-0{
+	position: absolute;
+    color: white;
+    font-size: 44px;
+    top: 40px;
+    left: 517px;
+
+}
+#text4-1{
+	position: absolute;
+    color: #60605B;
+    font-size: 18px;
+    top: 120px;
+    left: 450px;
+}
+#text4-2{
+	position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 180px;
+    left:765px;
+    background: black;
+    padding:8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px; 
+
+}
+#text4-3{
+	position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 180px;
+    left:927px;
+    border:1px solid black;
+    padding:8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px; 
+
+}
+#w4-2{
+	position: absolute;
+	top:340px;
+	left:388px;
+}
+#w4-3{
+	position: absolute;
+	top:340px;
+	left:628px;
+}
+#w4-4{
+	position: absolute;
+	top:340px;
+	left:868px;
+}
+#w4-5{
+	position: absolute;
+	top:340px;
+	left:1108px;
+}
+#w4-6{
+	position: absolute;
+	top:340px;
+	left:1348px;
+}
+#icon4-2{
+	position: absolute;
+    color: #60605B;
+    font-size: 18px;
+    top: 460px;
+    left: 435px;
+}
+#icon4-3{
+	position: absolute;
+    color: #60605B;
+    font-size: 18px;
+    top: 460px;
+    left: 665px;
+
+}
+#icon4-4{
+	position: absolute;
+    color: #60605B;
+    font-size: 18px;
+    top: 460px;
+    left: 912px;
+}
+#icon4-5{
+	position: absolute;
+    color: #60605B;
+    font-size: 18px;
+    top: 460px;
+    left: 1148px;
+}
+#icon4-6{
+	position: absolute;
+    color: #60605B;
+    font-size: 18px;
+    top: 460px;
+    left: 1387px;
+}
+#text40-1{
+	position: absolute;
+	font-size: 11px;
+	color: white;
+	top: 512px;
+	left: 385px;
+}
+#text40-2{
+	position: absolute;
+	font-size: 11px;
+	color: white;
+	top: 512px;
+	left: 618px;
+}#text40-3{
+	position: absolute;
+	font-size: 11px;
+	color: white;
+	top: 512px;
+	left: 851px;
+}#text40-4{
+	position: absolute;
+	font-size: 11px;
+	color: white;
+	top: 512px;
+	left: 1085px;
+}#text40-5{
+	position: absolute;
+	font-size: 11px;
+	color: white;
+	top: 512px;
+	left: 1320px;
+}
+.web5{
+	position: relative;
+}
+.web50{
+	background-color: white;
+	height:70px;
+	position: relative;
+}
+.web51{
+	line-height: 0px;
+}
+#text51{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top:75px;
+	left:665px;
+
+}
+#text52{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top:130px;
+	left:384px;
+}
+#text53{
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	top:220px;
+	left:434px;
+
+}
+.web52{
+	position: absolute;
+	top:300px;
+	left:372px;
+}
+.libiao{
+	position: absolute;	
+	color:white;
+	top:283px;
+	left:680px;
+	list-style-type:disc; 
+}
+
+.libiao li {display: inline;
+	margin:90px;
+	line-height: 100px;
+}
+.last{
+	position: relative;
+	margin-top:0px;
+
+}
+.w5{
+	position: relative;
+}
+#input1{
+	position: absolute;
+	top: -350px;
+	left: 122px;
+}
+#input2{
+	position: absolute;
+	top: -350px;
+	left: 390px;
+}
+#input3{
+	position: absolute;
+	top: -250px;
+	left: 122px;
+}
+#input4{
+	position: absolute;
+	top: -250px;
+	left: 390px;
+}
+#input5{
+	position: absolute;
+	top: -150px;
+	left: 122px;
+}
+#input6{
+	position: absolute;
+	top: -150px;
+	left: 390px;
+}
+#input7{
+	height:121px;
+	width:460px;
+	position: absolute;
+	top: -50px;
+	left: 122px;
+}
+.w50{
+	position: absolute;
+	left: -329px;
+	top:338px;
+}
+#w51{
+	position: absolute;
+	left: -0px;
+	top:70px;
+}
+#block{
+	width: 88px;
+    height: 22px;
+    border: 2px solid white;
+    position: absolute;
+    top: 518px;
+    left: 301px;;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+	border:none;
+}
+.text5{
+	position: absolute;
+	height:632px;
+	top:64px;
+	background: black;
+
+}
+
+#box1{
+	color:white;
+	display: inline-block;
+	margin-left:360px; 
+}
+#box1-1{
+	padding-bottom: 15px;
+	border-bottom:1px dashed #60605B;
+}
+#box11{
+	color:#60605B;
+}
+#box11 p{
+	padding-top: 0px;
+    border: 0px;
+    line-height: 0px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+
+}
+#box2{
+	position: absolute;
+	top:0px;
+	color:white;
+	
+	display: inline-block;
+	margin-left:60px; 
+}
+#box2-1{
+	padding-bottom: 15px;
+	border-bottom:1px dashed #60605B;
+}
+#box21{
+	color:#60605B;
+}
+#box21 p{
+	padding-top: 0px;
+    border: 0px;
+    line-height: 0px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+
+}
+#box3{
+	position: absolute;
+	top:0px;
+	right: 690px;
+	color:white;
+	display: inline-block;
+	margin-left:60px; 
+}
+#box3-1{
+	padding-bottom: 15px;
+	border-bottom:1px dashed #60605B;
+}
+#box31{
+	color:#60605B;
+}
+#box31 p{
+	padding-top: 0px;
+    border: 0px;
+    line-height: 0px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+
+}
+#box4{
+	position: absolute;
+	top:0px;
+	right: 390px;
+	color:white;
+	display: inline-block;
+	margin-left:70px; 
+}
+#box4-1{
+	padding-bottom: 15px;
+	border-bottom:1px dashed #60605B;
+}
+#box41{
+	color:#60605B;
+}
+#box41 p{
+	padding-top: 0px;
+    border: 0px;
+    line-height: 0px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+
+}
+#box5{
+
+    border:3px solid black;
+	display: inline-block;
+	margin-left:1915px; 
+}
+#box6{
+	position: absolute;
+	bottom:-63px;
+	left:24%; 
+
+
+}
+#box6 p{
+	color: #60605B;
+}
+#blackground{
+	height: 300px;
+	width: 1920px;
+	background-color:black;
+}	
+#box7{
+	position: absolute;
+	bottom:-164px;
+	left:39%; 
+
+
+}
+#box7 p{
+	color: #60605B;
+}
