@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	.contend{
+		width: 300px;
+		height: 300px;
+		
+		margin:10% 30%;
+	}	
+	</style>
+</head>
+<body>
+	<div class="contend">
+		<div class="contend1">
+			<table>
+			<tr><td>请输入手机号</td><td><input type="text" id="text1" name="" ></td></tr>
+			<tr><td>请输入邮箱地址</td><td><input type="text" id="mail1"></td></tr>
+		    </table>
+		    <button onclick="check()">sublime</button>
+		</div>
+		
+	</div>
+
+<script>
+	function check(){
+	var label1=document.getElementById("text1").value;
+	if (label1.length==11) {
+		alert("OK");
+	}else
+	{alert("请输入十一位数")};
+	var em=document.getElementById("mail1")
+	if (em.value==""||em.length==0) {
+		alert("电子邮箱不能为空")}
+		else{
+			var at=em.value.indexOf("@");
+			var dot=em.value.indexOf(".");
+			if (dot<0||dot==0||at==em.value.length-1) 
+				{alert("邮箱格式不正确")}
+
+			
+			else{alert("提交成功")}
+		}
+}
+</script>
+</body>
+</html>

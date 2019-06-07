@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>test1</title>
+<style type="text/css">
+.content{
+	width:600px;
+	height: 200px;
+	margin:70px auto;
+}	
+.content input{
+	-webkit-appearance: radio;
+}	
+</style>
+
+</head>
+<body>
+	
+	<div class="content">
+	<div class="content1">
+	<p>哪一项是动物?(单选)</p>
+	<form name="form1">
+	<input id="test11" type="checkbox" name="single" onclick="onlySingle(this,'single');">A.水果
+	<input id="daan1" type="checkbox" name="single" onclick="onlySingle(this,'single');"value="">B.奶牛
+	<input id="test13" type="checkbox" name="single" onclick="onlySingle(this,'single')">C.蔬菜
+	<input  id="test14"type="checkbox" name="single" onclick="onlySingle(this,'single')">D.苹果
+    </form>
+    </div>
+    <div class="content1">
+    <p>前端三剑客是？(多选)</p>
+    <form name="form2">
+    <input id="daan2" type="checkbox" name="single1">A.JS
+	<input id="daan3" type="checkbox" name="single2">B.CSS
+	<input id="daan4" type="checkbox" name="single3">C.HTML
+	<input id="daan5" type="checkbox" name="single4">D.JQ
+    </form>
+    </div>
+    <div><button onclick="checkText()">提交答案</button></div>
+    </div>
+    <script>
+    	function onlySingle(obj,cname){
+    		var boxArray = document.getElementsByName(cname);
+
+    		
+    		for(var i=0;i<4;i++)
+    		{ if(boxArray[i]==obj && obj.checked)
+    			 {boxArray[i].checked = true; }
+    			else {boxArray[i].checked = false; } 
+    	} }
+    
+
+
+	function checkText()
+	{
+		var Text1_1=document.getElementById("daan1");
+		var Text1_2=document.getElementById("test11");
+		var Text1_3=document.getElementById("test13");
+		var Text1_4=document.getElementById("test14");
+
+		if (Text1_1.checked==true||Text1_2.checked==true||Text1_3.checked==true||Text1_4.checked==true) {
+			// var Text1=document.forms["form1"].daan1;
+
+		if (Text1_1.checked==true)
+		{
+      
+     	alert("第一题回答正确")
+     
+		}
+		else
+		alert("第一题回答错误");
+
+	var Text2=document.forms["form2"].daan2;
+	var Text3=document.forms["form2"].daan3;
+	var Text4=document.forms["form2"].daan4;
+	var Text5=document.forms["form2"].daan5;
+	if (Text2.checked==true&&Text3.checked==true&&Text4.checked==true)
+		{       
+     	alert("第二题回答正确")
+     
+		}
+		else
+		alert("第二题回答错误");
+
+		}
+			else{
+				alert("请完成第一题")
+			}
+		
+ 
+
+     
+	}
+</script>
+</body>
+</html>

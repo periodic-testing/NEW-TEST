@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.contain{
+		width: 300px;
+		height: 300px;		
+		margin:10% 30%;
+	}
+	#outdiv,#value1{
+		display: inline-block;
+	}
+	button{
+		display: block;
+	}
+
+</style>
+<body>
+
+<div class="contain">
+<p class="first">请输入任何内容</p>
+<input type="text" id="value1" >
+<div id="outdiv"></div>
+<button onclick="check()">提交</button>	
+</div>
+</body>
+<script type="text/javascript">
+	function check(){
+		var inputValue = document.getElementById("value1").value;
+		
+		var  value_Input=document.getElementById("outdiv");		
+		value_Input.innerHTML=inputValue;		
+	}
+</script>
+</html>
