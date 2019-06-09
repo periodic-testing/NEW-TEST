@@ -1,0 +1,19 @@
+<svg id="search-rounded" viewBox="-0.5 -0.5 25.5 24.98" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .cls-1,
+      .cls-2 {
+        fill:none;
+        stroke: black;
+        stroke-miterlimit:10;
+        stroke-width:2.5px;
+      }
+      .cls-2 {
+        stroke-linecap:round;
+      }
+    </style>
+  </defs>
+  <title>SearchIcon</title>
+  <circle class="cls-1" cx="9.67" cy="9.67" r="8.92" />
+  <line class="cls-2" x1="16.15" y1="15.77" x2="23.6" y2="23.23"/>
+</svg>

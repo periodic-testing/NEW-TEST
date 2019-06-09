@@ -1,0 +1,2239 @@
+/* one.css */
+
+*{margin: 0;padding: 0}
+a{
+    text-decoration: none;
+}
+
+ul,li {
+    list-style-type:none;
+}
+button{
+    border:none;
+}
+
+body{
+    width:100%;
+    font-size:16px;
+}
+
+
+/* navigation部分 */
+
+.navigation {
+    height:48px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul{
+    display:inline-flex;
+    position: relative;
+    right: 1%;
+}
+.navigation_logo{
+    position: relative;
+    left:1.2%;
+}
+.Subscribe a{
+    position: relative;
+    right: 110%;
+    font-family: 'GeoEditRegular';
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+    color: #333333;
+}
+.Subscribe a:hover{
+    padding-bottom:1px;
+    border-bottom: 2.5px solid #fc0;
+}
+.navigation_arrow a{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight:600;
+    font-size:0.875rem;
+}
+.navigation_user{
+    position: relative;
+    right: 30%;
+}
+.navigation_finding{
+    position: relative;
+    right: 20%;
+}
+
+
+.container{
+    width: 100%;
+}
+
+
+/* container1 */
+.container1{
+    width: 100%;
+    height: 1180px;
+    background:url(./images/container1_bg.png) ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: 0 -10px;
+}
+.container1_heading1{
+    color: #ffffff;
+    width: 100%;
+    height: 260px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container1_heading1_1{
+    margin-bottom:10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 3.375rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container1_heading1_2{
+    margin-bottom:25px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    letter-spacing:1px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.container1_heading1_3{
+    width:60px;
+    height: 4px;
+    background-color: #ffcc00;
+}
+.container1_{
+    width: 1020px;
+    height: 1500px;
+}
+.container1_2{
+    color:#ffffff;
+    width: 320px;
+    height: 1000px;
+    position: absolute;
+    left:16%;
+}
+.lateststoriesYellowLine{
+    display:inline-block;
+    width:4px;
+    height:18px;
+    background-color: #ffcc00;
+}
+.lateststories1{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    display:inline-block;
+    width:256px;
+    height:28px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-size: 1.375rem;
+    letter-spacing: 3px;
+    line-height: 1.273;
+}
+/* .container1_2list{display: flex;flex-direction: column;} */
+ 
+.container1_21 a{
+    color:#ffffff;
+    display: block;
+}
+.container1_21 img{
+    position: absolute;
+    clip: rect(10px 100px 100px 10px);
+    left:-10px;
+}
+.container1_21text{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:64px;
+}
+.container1_211{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container1_212{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container1_22{
+    position: relative;
+    top:126px;
+}
+.container1_22 a{
+    color:#ffffff;
+    display: block;
+}
+.container1_22 img{
+    position: absolute;
+    clip: rect(10px 100px 100px 10px);
+    left:-10px;
+}
+.container1_22text{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:10px;
+}
+.container1_221{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container1_222{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container1_23{
+    position: relative;
+    top:252px;
+}
+.container1_23 a{
+    color:#ffffff;
+    display: block;
+}
+.container1_23 img{
+    position: absolute;
+    clip: rect(10px 100px 100px 10px);
+    left:-10px;
+}
+.container1_23text{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:10px;
+}
+.container1_231{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container1_232{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+ }
+.container1_24{
+    position: relative;
+    top:378px;
+}
+.container1_24 a{
+    color:#ffffff;
+    display: block;
+}
+.container1_24 img{
+    position: absolute;
+    clip: rect(10px 100px 100px 10px);
+    left:-10px;
+}
+.container1_24text{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:10px;
+}
+.container1_241{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container1_242{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container1_25{
+    position: relative;
+    top:504px;
+}
+.container1_25 a{
+    color:#ffffff;
+    display: block;
+}
+.container1_25 img{
+    position: absolute;
+    clip: rect(10px 100px 100px 10px);
+    left:-10px;
+}
+.container1_25text{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:10px;
+}
+.container1_251{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container1_252{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container1_26{
+    position: relative;
+    top:630px;
+}
+.container1_26 a{
+    color:#ffffff;
+    display: block;
+}
+.container1_26 img{
+    position: absolute;
+    clip: rect(10px 100px 100px 10px);
+    left:-10px;
+}
+.container1_26text{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:10px;
+}
+.container1_261{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container1_262{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container1_211:hover{
+    text-decoration: underline;
+}
+.container1_221:hover{
+    text-decoration: underline;
+}
+.container1_231:hover{
+    text-decoration: underline;
+}
+.container1_241:hover{
+    text-decoration: underline;
+}
+.container1_251:hover{
+    text-decoration: underline;
+}
+.container1_261:hover{
+    text-decoration: underline;
+}
+.container1_212:hover{
+    color: rgb(92, 92, 92);
+}
+.container1_222:hover{
+    color: rgb(92, 92, 92);
+}
+.container1_232:hover{
+    color: rgb(92, 92, 92);
+}
+.container1_242:hover{
+    color: rgb(92, 92, 92);
+}
+.container1_252:hover{
+    color: rgb(92, 92, 92);
+}
+.container1_262:hover{
+    color: rgb(92, 92, 92);
+}
+
+
+.seemore_btn1{
+    border-bottom:2px solid #ffcc00;
+    position:absolute;
+    top:830px;
+    font-family:'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size:0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+.container1_3{
+    position: relative;
+    left:55%;
+    width:660px;
+    height: 423px;
+}
+.container1_311div,.container1_31234{
+    position: absolute;
+}
+.container1_31234 {
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+    width: 620px;
+    height: 164px;
+    top:60%;
+    left:4%;
+}
+.container1_312{
+    color:#ffffff;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.container1_313{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color:#ffffff;
+    font-weight: 600;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1.35px;
+    line-height: 1.5;
+}
+.container1_314{
+    color:#ffffff;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.container1_323{
+    position: relative;
+    top:450px;
+    width: 630px;
+    height: 423px;
+    display: flex;
+    justify-content:space-between;
+}
+.container1_33{
+    margin-left:40px;
+}
+.container1_32div{
+    position: relative;
+    top:3%;
+}
+.container1_32div1 {
+    position: relative;
+    left:15px;
+}
+.container1_32div11 a{
+    position: relative;
+    left:6%;
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #333333;
+    padding-bottom: 1px;
+}
+.container1_32div11 a:hover{
+    color:#999;
+}
+.container1_32div11,.container1_32div12 {
+    display: inline-block;
+}
+.container1_32div12 a {
+    position: relative;
+    left:15%;font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #333333;
+}
+.container1_32div12 a:hover{
+    color:#999;
+    text-decoration: underline;
+}
+.container1_32div2{
+    position: relative;
+    left: 6%;
+    width:280px; 
+    top:10px;
+}
+.container1_32div2 a{
+    display: inline-flex;
+}
+.container1_32div21{
+    color:#000000;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.container1_32div22{
+    position: relative;
+    top:10px;
+    color:#000000;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size:0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.container1_33div{
+    position: relative;
+    top:3%;
+}
+.container1_33div11{
+    position: relative;
+    left:6%;font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #333;
+    padding-bottom: 1px;
+}
+.container1_33div1 a:hover{
+    color:#999;
+}
+.container1_33div2{
+    position: relative;
+    left: 6%;
+    width:280px; 
+    top:10px;
+}
+.container1_33div2 a{
+    display: inline-flex;
+}
+.container1_33div21{
+    color:#000000;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.container1_33div22{
+    position: relative;
+    top:10px;
+    color:#000000;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size:0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+/* container2 */
+.ad_container1{
+    width:100%;
+    height:300px;
+}
+.ad_container1 p{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    position: relative;
+    text-align: center;
+    top:110px;
+}
+.ad_container1 img{
+    display: block;
+    position: relative;
+    margin:0 auto;
+    top:120px;
+}
+.container2_heading1{
+    color: #000000;
+    width: 100%;
+    height: 260px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container2_heading1_1{
+    margin-bottom:10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 2.625rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container2_heading1_2{
+    margin-bottom:25px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    letter-spacing:1px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.container2_heading1_3{
+    width:60px;
+    height: 4px;
+    background-color: #ffcc00;
+}
+
+.container2_tvtv{
+    position: relative;
+    display: block;
+    margin:0 auto;
+}
+.container2_tvtext{
+    color: #ffffff;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    left:8.15%;
+    top:-350px;
+}
+.container2_tvtext a{
+    color: #ffffff;
+}
+.container2_tvtext1{
+    margin-bottom:15px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.container2_tvtext2{
+    margin-bottom:15px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 2.625rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container2_tvtext3{
+    margin-top:10px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 24px;
+    max-width: 728px;
+}
+.container2_tvtext4{
+    position: relative;
+    top:15px;
+    background-color: #ffcc00;
+    width:260px;
+    height:45px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 45px;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.container2_bar div{
+    position: relative;
+    left:4.15%;
+    top:-150px;
+    display: flex;
+    justify-content: space-between;
+    width:940px;
+}
+.container2_barcontent a{
+    position: relative;
+    top:107px;
+}
+.container2_barcontent00{
+    position: relative;
+    top:-60px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #000;
+}
+.container2_barcontent01{
+    position: relative;
+    top:-60px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.755rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border-bottom: 2px solid #fc0;
+    color: #000;
+}
+
+
+/* .container3 */
+.container3{
+    width: 100%;
+    height: 1580px;
+    background:url(./images/container1_bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: 0 -10px;
+}
+.container3_heading1{
+    color: #ffffff;
+    width: 100%;
+    height: 260px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container3_heading1_1{
+    margin-bottom:10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 3.375rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container3_heading1_2{
+    margin-bottom:25px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing:1px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.container3_heading1_3{
+    width:60px;
+    height: 4px;
+    background-color: #ffcc00;
+}
+
+.container3_2_3{
+    width:100%;
+    height: 1384px;
+}
+.container3_2{
+    position: relative;
+    width:660px;
+    top:28%;
+    left: 16%;
+}
+.container3_21234{
+    position: relative;
+    top:-180px;
+    left:3%;
+    display: inline-flex;
+    flex-direction: column;
+    width:440px;
+}
+.container3_212{
+    margin-bottom:10px;
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size:0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color:#ffffff;
+}
+.container3_213{
+    margin-bottom:15px;
+    color:#ffffff;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 2.375rem;
+    line-height: 1.211;
+}
+.container3_214{
+    color:#ffffff;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.container3_22_23{
+    display: inline-flex;
+    position: relative;
+    top:-130px;
+}
+.container3_22{
+    margin-right:40px;
+}
+.container3_22div,.container3_23div {
+    position: relative;
+    left:11%;
+    top:-270px;
+    width: 240px;
+    text-align: center;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 1.625rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container3_22div a,.container3_23div a{
+    color:#ffffff;
+}
+.container3_22div1{
+    margin-bottom: 60px;
+}
+.container3_22div2_{
+    position: relative;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    color: #000;
+    font-size:0.78rem;
+    letter-spacing: 3px;
+    line-height: 45px;
+    padding-left:15px;
+    cursor: pointer;
+    background-color:#fc0;
+    border:none;
+    width:150px;
+    height: 45px;
+    font-weight:600;
+}
+.container3_23{
+    width:310px;
+    height:412.31px;
+    display:inline-block;
+}
+.container3_23div{
+    position: relative;
+    left: 20px;
+    width: 240px;
+    text-align: center;
+}
+.container3_23div1{
+    margin-bottom: 40px;
+}
+
+.container3_23div2_{ 
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    color: #000;
+    font-size:0.78rem;
+    letter-spacing: 3px;
+    line-height: 45px;
+    padding-left:30px;
+    cursor: pointer;
+    background-color:#fc0;
+    border:none;
+    width:150px;
+    height: 45px;
+    font-weight:600;
+}
+
+.container3_3list{
+    display: inline-flex;
+    flex-direction: column;
+    width:380px;
+    position: relative;
+    left:62%;
+    top:-593px;
+}
+.container3_3list a{
+    width: 250px;
+}
+.lateststoriesYellowLine3{
+    display:inline-block;
+    width:4px;
+    height:18px;
+    background-color: #ffcc00;
+}
+.lateststories3{
+    margin-left: 10px;
+    color:#ffffff;
+    font-weight: 600;
+    margin-bottom: 25px;
+    display:inline-block;
+    width:256px;
+    height:28px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2.5px;
+    line-height: 1.273;
+}
+.container3_31 a{
+    color:#ffffff;
+    display: block;
+}
+.container3_31 img{
+    position: absolute;
+    top:-10px;
+    left:-115px;
+    clip: rect(10px 100px 100px 10px);
+}
+.container3_31{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:64px;
+}
+.container3_311{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container3_312{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container3_32 a{
+    color:#ffffff;
+    display: block;
+}
+.container3_32 img{
+    position: absolute;
+    top:-10px;
+    left:-115px;
+    clip: rect(10px 100px 100px 10px);
+}
+.container3_32{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:174px;
+}
+.container3_321{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container3_322{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container3_33 a{
+    color:#ffffff;
+    display: block;
+}
+.container3_33 img{
+    position: absolute;
+    top:-10px;
+    left:-115px;
+    clip: rect(10px 100px 100px 10px);
+}
+.container3_33{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;top:284px;
+}
+.container3_331{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container3_332{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container3_34 a{
+    color:#ffffff;
+    display: block;
+}
+.container3_34 img{
+    position: absolute;
+    top:-10px;
+    left:-115px;
+    clip: rect(10px 100px 100px 10px);
+}
+.container3_34{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;top:394px;
+}
+.container3_341{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container3_342{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container3_35 a{
+    color:#ffffff;
+    display: block;
+}
+.container3_35 img{
+    position: absolute;
+    top:-5px;
+    left:-115px;
+    clip: rect(10px 100px 100px 10px);
+}
+.container3_35{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:504px;
+}
+.container3_351{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container3_352{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container3_36 a{
+    color:#ffffff;
+    display: block;
+}
+.container3_36 img{
+    position: absolute;
+    top:-10px;
+    left:-115px;
+    clip: rect(10px 100px 100px 10px);
+}
+.container3_36{
+    width:200px;
+    height: 90px;
+    position: absolute;
+    left:110px;
+    top:614px;
+}
+.container3_361{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+}
+.container3_362{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container3_311:hover{
+    text-decoration: underline;
+}
+.container3_321:hover{
+    text-decoration: underline;
+}
+.container3_331:hover{
+    text-decoration: underline;
+}
+.container3_341:hover{
+    text-decoration: underline;
+}
+.container3_351:hover{
+    text-decoration: underline;
+}
+.container3_361:hover{
+    text-decoration: underline;
+}
+.container3_312:hover{
+    color: rgb(92, 92, 92);
+}
+.container3_322:hover{
+    color: rgb(92, 92, 92);
+}
+.container3_332:hover{
+    color: rgb(92, 92, 92);
+}
+.container3_342:hover{
+    color: rgb(92, 92, 92);
+}
+.container3_352:hover{
+    color: rgb(92, 92, 92);
+}
+.container3_362:hover{
+    color: rgb(92, 92, 92);
+}
+.seemore_btn{
+    position: relative;
+    width:80px;
+    top:685px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding-bottom: 2px;
+    border-bottom:2px solid #fc0;
+}
+
+
+.container4_heading1{
+    color: #000000;
+    width: 100%;
+    height: 260px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container4_heading1_1{
+    margin-bottom:10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 2.625rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container4_heading1_2{
+    margin-bottom:25px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    letter-spacing:1px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.container4_heading1_3{
+    width:60px;
+    height: 4px;
+    background-color: #ffcc00;
+}
+
+.container4_{
+    position: relative;
+    left: 16%;
+    width: 1020px;
+}
+.container4_text div{
+    width: 1020px;
+    text-align: center;
+}
+.container4_text1,.container4_text2{
+    color: #ffffff;
+    display:block;
+    position: relative;
+    top:-630px;
+}
+.container4_text1{
+    margin-bottom: 10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 800;
+    font-size: 1.375rem;
+    letter-spacing: 2px;
+    line-height: 1.273;
+}
+.container4_text2{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.div2{
+    position: relative;
+    top:-200px;
+}
+.container4_text3,.container4_text4{
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+    top:-100px;
+    left: 2%;
+    font-size: 0.85rem;
+}
+.container4_text4{
+    margin-left:20px;
+}
+
+.container4_content12 img, span, button{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.container4_content1_pic1{
+    position: relative;
+    left:33%;
+    top:100px;
+}
+.container4_content1 span{
+    color: #000000;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    position: relative;
+    top:30%;
+    font-size: 1.5rem;
+}
+.container4_content1_111{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size:0.75rem;
+    letter-spacing: 3px;
+    position: relative;
+    left:25%;
+    top:40%;
+    width: 150px;
+    height: 45px;
+    line-height:45px;
+    text-align: center;
+    border:none;
+    background-color: #ffffff;
+    padding-left: 18.5px;
+}
+.container4_content1_pic2{
+    position: relative;
+    left:100px;
+}
+.container4_content1222{
+    position: relative;
+    top:-250px;
+    left:120px;
+}
+/* .container4_content12221{
+    color: #ffffff;
+    width: 250px;
+}
+.container4_content12222{
+    color: #fff;
+    width: 250px;
+} */
+.container4_content1222 span{
+    color: #ffffff;
+    width: 250px;
+}
+.container4_content1222 button{
+    position: relative;
+    top:50px;
+    left: 50px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    border:none;
+    background-color: #fc0;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding-left: 46px;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+}
+
+
+.container4_content{
+    width:1020px;
+    height: 500px;
+}
+.container4_content1{
+    width:640px;
+    height: 400px;
+    display:inline-flex;
+    flex-direction:row;
+}
+.container4_content11{
+    margin-right:-60px;
+}
+.container4_content2{
+    margin-left:20px;
+    width: 350px;
+    display: inline-flex;
+    position: relative;
+    top:-34px;
+}
+.lateststoriesYellowLine4{
+    display:inline-block;
+    width:4px;
+    height:36px;
+    background-color: #ffcc00;
+}
+.lateststories4{
+    margin-left: 10px;
+    color:#000;
+    font-weight: 600;
+    margin-bottom: 25px;
+    display:inline-block;
+    width:330px;
+    height:28px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2.5px;
+    line-height: 1.273;
+}
+.container4_content21 a {
+    display: block;
+    width:150px;
+    position: relative;
+    left: 120px;
+    top:-120px;
+}
+.container4_content22 a {
+    display: block;
+    width:150px;
+    position: relative;
+    left:120px;
+    top:-120px;
+}
+.container4_211,.container4_221{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing:1px;
+    font-size: 1rem;
+    line-height: 1.5;color: #000;
+}
+.container4_212,.container4_222{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    line-height: 1.429;
+    color: #999;
+}
+.container4_content22{
+    position: relative;
+    top:-100px;
+}
+.container4_21_  a:hover{
+    text-decoration:underline;
+    text-decoration-color:#fc0;
+}
+.container4_22_  a:hover{
+    text-decoration:underline;
+    text-decoration-color:#fc0;
+}
+.container4_seeall{
+    position: relative;
+    top:-140px;
+    left:10px;
+    border-bottom: 2px solid #fc0;
+    color: #000;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.ad_container2 p{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    position: relative;
+    text-align: center;
+    top:-370px;
+}
+.ad_container2 img{
+    display: block;
+    position: relative;
+    margin:0 auto;
+    top:-350px;
+}
+
+.container5{
+    background-color: #000000;
+}
+.container5 img, span , button{
+    position: absolute;
+}
+.container5pic{
+    width:100%;
+    height:550px;
+    /* clip:rect(0px 1800px 1200px 650px); */
+}
+.container5 span{
+    position: relative;
+    margin-left:15%;
+    top:130px;
+    color: #ffffff;
+    width:460px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    line-height: 1.167;
+}
+.container5 button{
+    display:inline-block;
+    position: relative;
+    left:370px;
+    top:180px;
+    width: 155px;
+    line-height: 45px;
+    text-align:  center;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight:600;
+    font-size:0.75rem;
+    letter-spacing: 1px;
+    background-color: #fc0;
+    padding-left: 28px;
+}
+
+
+.container6{
+    position: relative;
+    top:300px;
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+}
+.container6_heading1{
+    position: relative;
+    color: #000000;
+    left:16%;
+    width: 1020px;
+    height: 260px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container6_heading1_1{
+    margin-bottom:10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 2.625rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container6_heading1_2{
+    text-align: center;
+    margin-bottom:25px
+    ;font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    letter-spacing:1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container6_heading1_3{
+    width:60px;
+    height: 4px;
+    background-color: #ffcc00;
+}
+.container6_content{
+    display: flex;
+    justify-content: space-around;
+    width:1020px;
+    height:466.66px;
+}
+.container6_content1,.container6_content2,.container6_content3{
+    width:320px;
+    height:426.66px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.container6_content1{
+    background:url(./images/container6_contentpic1.jpg);
+    background-size:cover;
+    color:#fff;
+}
+.container6_content1 span{
+    position: relative;
+    top:120px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    padding-bottom: 19px;
+    width:250px;
+}
+.container6_content1 h5{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-size: 1.75rem;
+    position: relative;
+    top:132px;
+    width:300px;
+    text-align: center;
+}
+.container6_content1 button{
+    position: relative;
+    top:220px;
+    background-color:#fc0;
+    width:103px;
+    height:45px;
+    line-height:45px;
+    text-align: center;
+    padding-left:15px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.container6_content2{
+    background:url(./images/container6_contentpic2.gif);
+    background-size:cover; 
+    color:#fff;
+}
+.container6_content2 span{
+    position: relative;
+    top:120px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    padding-bottom: 19px;
+    width:250px;
+}
+.container6_content2 h5{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-size: 1.75rem;
+    position: relative;
+    top:132px;
+    width:300px;
+    text-align: center;
+}
+.container6_content2 button{
+    position: relative;
+    top:220px;
+    background-color:#fc0;
+    width:131px;
+    height:45px;
+    line-height:45px;
+    text-align: center;
+    padding-left:18px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.container6_content3{
+    background:url(./images/container6_contentpic3.jpg);
+    background-size:cover; 
+    color:#fff;
+}
+.container6_content3 span{
+    position: relative;
+    top:120px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    padding-bottom: 19px;
+    width:250px;
+}
+.container6_content3 h5{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-size: 1.75rem;
+    position: relative;
+    top:132px;
+    width:300px;
+    text-align: center;
+}
+.container6_content3 button{
+    position: relative;
+    top:210px;
+    background-color:#fc0;
+    width:150px;
+    height:45px;
+    line-height:45px;
+    text-align: center;
+    padding-left:20px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.container6_bottom{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content:center;
+}
+.container6_bottom a{
+    display:block;
+    color: #000;
+    width:72px;
+    border-bottom: 2px solid #fc0;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+.container7{
+    width: 100%;
+    height: 980px;
+    background-color:rgb(233, 233, 233);
+    position: relative;
+    top:300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container7_1{
+    position: relative;
+    top:20px;
+    width:540px;
+    height: 540px;
+}
+.container7_2 {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 2.625rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    position: relative;
+    z-index: 2;
+    top:-260px;
+}
+.ad_container3{
+    width:100%;
+    height:300px;
+}
+.ad_container3 p{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    position: relative;
+    text-align: center;
+    top:110px;
+}
+.ad_container3 img{
+    display: block;
+    position: relative;
+    margin:0 auto;
+    top:120px;
+    z-index: 3;
+}
+
+
+.container8 {
+    width: 100%;
+    height: 952px;
+    position: relative;
+    top:300px;
+    background-color: #000;
+}
+
+.container8pic{
+    position:absolute;
+    width: 1066px;
+    height: 952px;
+    clip: rect(0px 1900px 952px 200px);
+    left:457px;
+}
+
+.container8_content{
+    width:335px;
+    height: 950px;
+    position: relative;
+    /* background-color:#000;
+    z-index: 2; */
+}
+
+.container8_content1{
+    position: relative;
+    top:50px;
+    left:170px;
+}
+.container8_content2{
+    position: relative;
+    top:100px;
+    left:170px;
+    color:#fff;
+}
+.container8_content11{
+    width:4px;
+    height: 12px;
+    background-color:#ffcc00;
+    display: inline-block;
+}
+.container8_content12{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #fc0;
+    display: inline-block;
+    padding-left:15px;
+    padding-right:15px;
+}
+.container8_content12:hover{
+    color: #fff;
+}
+.container8_content13{
+    width:4px;
+    height:12px;
+    background-color:#ffcc00; 
+    display: inline-block;
+}
+.container8_content21{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 2rem;
+    line-height: 1.214;
+}
+.container8_content22{
+    position: relative;
+    top:16px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+.container8_content23{
+    position: relative;
+    top:36px;
+}
+.container8_content2 a{
+    color: #fff;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fc0;
+}
+.container8_content3{
+    position: relative;
+    top:160px;
+    left:170px;
+    color:#ffffff;
+}
+.container8_content31{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    position: relative;
+}
+.container8_content32{
+    position: relative;
+    top:20px;
+}
+.container8_content32 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip:rect(0px 90px 90px 0px);
+    top:10px
+}
+.container8_content33 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip:rect(0px 90px 90px 0px);
+    top:180px
+}
+.container8_content34 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip:rect(0px 90px 90px 0px);
+    top:300px
+}
+.container8_content32 p{
+    width: 235px;
+    position: relative;
+    display: inline-block;
+    left:100px;
+    top:10px;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+.container8_content33 p{
+    width: 235px;
+    position: relative;
+    display: inline-block;
+    left:100px;
+    top:124px;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+.container8_content34 p{
+    width: 235px;
+    position: relative;
+    display: inline-block;
+    left:100px;
+    top:210px;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+.container8_content32 p:hover{
+    color:#999;
+}
+.container8_content33 p:hover{
+    color:#999;
+}
+.container8_content34 p:hover{
+    color:#999;
+}
+.container8_content35{
+    position: relative;
+    top:300px;
+    width:125px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #fc0;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-left:20px;
+}
+
+.container9{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    top:300px;
+}
+.container9_heading1{
+    color: #000000;
+    width: 100%;
+    height: 260px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container9_heading1_1{
+    margin-bottom:10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 600;
+    font-size: 3.375rem;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.container9_heading1_2{
+    margin-bottom:25px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    letter-spacing:1px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.container9_heading1_3{
+    width:60px;
+    height: 4px;
+    background-color: #ffcc00;
+} 
+.container9_content{
+    position: relative;
+    margin:0 auto;
+    width:1020px;
+    height:634px;
+    display:flex;
+    justify-content: space-around;
+}
+.container9_content11{
+    width:313.33px;
+    height:313.33px;
+}
+.container9_content21{
+    width:313.33px;
+    height:313.33px;
+}
+.container9_content31{
+    width:313.33px;
+    height:313.33px;
+}
+.container9_content12{
+    position: relative;
+    top:50px;    
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size:  1.375rem;
+    width:313.33px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.container9_content13{
+    width:220px;
+    height:45px;
+    line-height: 45px;
+    position: relative;
+    padding-left:35px;
+    background-color:#fc0;
+    top:70px;
+    left:46.665px;
+}
+.container9_content21{
+    width:313.33px;
+    height:313.33px;
+}
+.container9_content22{
+    position: relative;
+    top:50px;    
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size:  1.375rem;
+    width:313.33px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.container9_content23{
+    width:177px;
+    height:45px;
+    line-height: 45px;
+    position: relative;
+    padding-left:35px;
+    background-color:#fc0;
+    top:70px;
+    left:68.165px;
+}
+.container9_content31{
+    width:313.33px;
+    height:313.33px;
+}
+.container9_content32{
+    position: relative;
+    top:50px;    
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    font-size:  1.375rem;
+    width:313.33px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.container9_content33{
+    width:174px;
+    height:45px;
+    line-height: 45px;
+    position: relative;
+    padding-left:35px;
+    background-color:#fc0;
+    top:70px;
+    left:69.665px;
+}
+.container9_content12:hover{
+    color:#999;
+}
+.container9_content22:hover{
+    color:#999;
+}
+.container9_content32:hover{
+    color:#999;
+}
+
+
+
+.container10{
+    width:100%;
+    height:271px;
+    position: relative;
+    top:300px;
+    margin: 0 auto;
+}
+.container10_bg{
+    width:100%;
+    height: 271px;
+    float: left;
+}
+.container10_content{
+    position:absolute;
+    width:100%;
+    text-align: center;
+}
+.container10_content1{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 38px;
+    color: #fff;
+    position: relative;
+    top:20px;
+}
+.container10_content2{
+    font-family: 'Geograph Edit', 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-size:1.125rem;
+    line-height: 27px;
+    color: #fff;
+    margin: 10px 0;
+    position: relative;
+    top:30px;
+}
+.container10_content3{
+    width: 1080px;
+    height: 55px;
+    border: 0;
+    padding-left: 20px;
+    /* background: url(./images/arrow-right.gif) no-repeat ;
+    background-size:40px 40px;  */
+}
+.container10_content4{
+    font-family: 'GeoEditRegular','Franklin Gothic Medium','Franklin Gothic','ITC Franklin Gothic',Helvetica,Arial,sans-serif !important;
+    font-size: 0.875rem;
+    position: relative;
+    top:50px;
+    width:1050px;
+    margin:0 auto;
+    color: rgb(214, 214, 214);
+}
+
+.container10_content4 a{
+    text-decoration: underline;
+    text-decoration-color: rgb(214, 214, 214);
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+.container10_content4 a:hover{
+    color: #fff;
+}
+
+
+
+
+.footer{
+    width:100%;
+    height: 423px;
+    background-color: #000;
+    position: relative;
+    top:300px;
+}
+
+.footer_list{
+    display:flex;
+    flex-direction: row;
+    width:1300px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top:20px;
+    left:200px;
+}
+.footer_list1,.footer_list2,.footer_list3,.footer_list4{
+    width:260px;
+}
+.footer_list1 h3{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+}
+.footer_list1 ul{
+    position: relative;
+    top:20px;
+}
+.footer_list1 li{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
+.footer_list1 li:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.footer_list2 h3{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+}
+.footer_list2 ul{
+    position: relative;
+    top:20px;
+}
+.footer_list2 li{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
+.footer_list2 li:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.footer_list3 h3{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+}
+.footer_list3 ul{
+    position: relative;
+    top:20px;
+}
+.footer_list3 li{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
+.footer_list3 li:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.footer_list4 h3{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+}
+.footer_list4 ul{
+    position: relative;
+    top:20px;
+}
+.footer_list4 li{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
+.footer_list4 li:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.footer_footer{
+    width: 100%;
+    position: relative;
+    top:80px;
+    border-top:0.1px solid rgb(75, 75, 75);
+}
+.footer_footer img{
+    width:140px;
+    height: 40px;
+    position: relative;
+    top:20px;
+    left:200px;
+    display: inline-block;
+}
+
+.footer_footer p{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.3px;
+    color: #999;
+    display: inline-block;
+    position: relative;
+    left:220px;
+}
